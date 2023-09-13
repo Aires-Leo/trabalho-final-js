@@ -31,3 +31,4 @@ function menu() {
         menu();
     }
   }
+  menu()
