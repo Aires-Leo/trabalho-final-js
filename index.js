@@ -56,7 +56,7 @@ function listarDoadores() {
   ----------------------------
   LISTAGEM DE DOADORES:
   --------------------------
-  NOME             | IDADE | PESO | TIPO SANGUÍNEO | ÚLTIMA DOAÇÃO
+  NOME           | IDADE | PESO | TIPO SANGUÍNEO | ÚLTIMA DOAÇÃO
   ----------------------------------------------------------------------------`
   for (let i = 0; i < indiceDoador; i++) {
     lista += `${doador.nome[i].slice(0,20).padEnd(20, ' ')} | ${doador.idade[i].slice(0,3).padEnd(10, ' ')}| ${doador.peso[i].slice(0,3).padEnd(10, ' ')}| ${doador.tipoSanguineo[i].slice(0,3).padEnd(10, ' ')}| ${doador.ultimaDoacao[i].slice(0,10).padEnd(10, ' ')}\n `
@@ -72,7 +72,7 @@ function buscarTipoSangue() {
   ----------------------------
   LISTAGEM DE DOADORES:
   --------------------------
-  NOME             | IDADE | PESO | TIPO SANGUÍNEO | ÚLTIMA DOAÇÃO
+  NOME           | IDADE | PESO | TIPO SANGUÍNEO | ÚLTIMA DOAÇÃO
   ----------------------------------------------------------------------------
  `
   for (let i = 0; i < indiceDoador; i++) {
@@ -91,7 +91,7 @@ function buscarPorData() {
   ----------------------------
   LISTAGEM DE DOADORES:
   --------------------------
-  NOME             | IDADE | PESO | TIPO SANGUÍNEO | ÚLTIMA DOAÇÃO
+  NOME           | IDADE | PESO | TIPO SANGUÍNEO | ÚLTIMA DOAÇÃO
   ----------------------------------------------------------------------------
  `
   for (let i = 0; i < indiceDoador; i++) {
